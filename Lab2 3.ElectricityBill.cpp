@@ -9,9 +9,9 @@ int main()
 		bill = unit * 0.5;
 	else if (unit>=100 && unit<200)
 		bill = unit * 1.5;
-	else if (unit>= 200 && 350)
+	else if (unit>= 200 && unit<350)
 		bill = unit * 2.5;
-	else if (unit >= 350 && 500)
+	else if (unit >= 350 && unit<500)
 		bill = unit * 3.5;
 	else if (unit >= 500)
 		bill = unit * 5;
